@@ -1,12 +1,13 @@
 
 Créer env virtuel :
->python -m venve <nom_du_dossier>
+>python -m venv <nom_du_dossier>
 
 Activer en virtuel : 
-> .\Scriots\activate
+> .\Scripts\activate
 
 Installer dependences sur environnement virtuel :
-> npm Install
+> pip install requests
+> pip install beautifulsoup4
 > pip install pandas
 
 Lancer scrape.py
